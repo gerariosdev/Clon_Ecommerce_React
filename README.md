@@ -21,5 +21,6 @@
 - React query
 - Material Components
 
-### Desplegado en Vercel https://trabajo-practico-react2025.vercel.app/
+## 📊 Vista previa
+https://trabajo-practico-react2025.vercel.app/
 
