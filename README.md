@@ -4,7 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.3-646CFF?logo=vite)](https://vite.dev)
 [![MUI](https://img.shields.io/badge/MUI-7-007FFF?logo=mui)](https://mui.com/)
-[![Deploy](https://img.shields.io/badge/Deploy-Netlify-00C7B7?logo=netlify)](https://ecommerce-clon.netlify.app)
+[![Deploy](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel)](https://ecommerce-react-clon.vercel.app)
 
 > A polished e-commerce front-end inspired by Mercado Libre Argentina — built with React 19, TypeScript, and Material-UI. Features a complete shopping cart flow, product catalog with filtering, and a dark mode that doesn't hurt your eyes.
 
