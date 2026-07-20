@@ -14,12 +14,9 @@ const STORAGE_KEY = "meli-theme";
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<Theme>(() => {
-    // Leer preferencia guardada o del sistema
+    // Leer preferencia guardada, sino light por defecto
     const saved = localStorage.getItem(STORAGE_KEY) as Theme | null;
-    if (saved === "light" || saved === "dark") return saved;
-    return window.matchMedia("(prefers-color-scheme: dark)").matches
-      ? "dark"
-      : "light";
+    return saved === "light" || saved === "dark" ? saved : "light";
   });
 
   useEffect(() => {
