@@ -55,6 +55,25 @@
   object-fit: contain;
 }
 
+/* Text logo */
+.logoLink {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logoText {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+/* Dark mode logo */
+:global(.dark) .logoText {
+  color: #1a1a1a;
+}
+
 /* ─── Center: Search ─── */
 .navCenterArea {
   grid-area: nav-center;

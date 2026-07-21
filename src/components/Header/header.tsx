@@ -36,12 +36,8 @@ export const Header = ({ onToggleSidebar }: HeaderProps) => {
           >
             <HiMenu size={22} />
           </button>
-          <Link to="/">
-            <img
-              className={styles.logoImagen}
-              src={"LogoMercadoLibre.jpg"}
-              alt="Mercado Libre"
-            />
+          <Link to="/" className={styles.logoLink}>
+            <span className={styles.logoText}>MeliStyle</span>
           </Link>
         </div>
 

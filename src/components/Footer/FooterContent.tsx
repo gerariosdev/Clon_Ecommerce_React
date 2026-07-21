@@ -18,6 +18,9 @@ export const FooterContent = () => {
           <Link to="/createProduct" className={styles.link}>Vender</Link>
         </div>
         <div className={styles.col}>
+          <p className={styles.disclaimer}>
+            Proyecto educativo — no afiliado a Mercado Libre.
+          </p>
           <p className={styles.copy}>&copy; {new Date().getFullYear()} — Todos los derechos reservados</p>
         </div>
       </div>
